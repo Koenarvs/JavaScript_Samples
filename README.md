@@ -3,7 +3,7 @@ These are my personal ROLL20 scripts.
 
 EberronNPCGenerator is my first script.
 
-When completed it will generate an NPC of a specific race (and Nationality or subrace), gender, and background. ALl of these can be randomly selected.
+When completed it will generate an NPC of a specific race (and Nationality or subrace), gender, and background. All of these can be randomly selected.
 
 Names are based on Race\Gender.
 
