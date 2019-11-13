@@ -35,10 +35,10 @@ on('chat:message', function (msg) {
             , hobgoblinfirst = _.sample(["Akreg", "Averz", "Daldravod", "Derbanurz", "Drogreg", "Drondrurz", "Egrud", "Evredor", "Gezrur", "Gloldranar", "Gluvlanur", "Grakkuc", "Grel", "Groldrar", "Gulvrug", "Kheldrac", "Khovrol", "Klorburog", "Klurarz", "Kognurz", "Mulvoc", " Muvrarg", " Muvreg", "Nukvor", "Rogroc", "Uvrek", "Valzar", "Vekroduk", "Vozul", " Vrokverg", "Vroldrorud", "Zrakron", "Zrulvrok"])
             , warforgedfirst = _.sample(["Unmaker", "Two", "Titan", "Three", "Ten", "Stitcher", "Sprite", "Sparkle", "Six", "Shielder", "Seven", "Senser", "Scorcher", "Salvager", "Sabre", "One", "Nurse", "Nine", "Murderer", "Marker", "Leaper", "Knocker", "Knife", "Killer", "Jury", "Iron", "Inspector", "Heart", "Glaive", "Gasher", "Friend", "Four", "Five", "Fire", "Falchion", "Etcher", "Epee", "Enchanter", "Eleven", "Eight", "Driver", "Drifter", "Dreamer", "Delver", "Dealer", "Curator", "Crumbler", "Creese", "Coil", "Clubber", "Chopper", "Chaser", "Chain", "Catcher", "Carriage", "Calmer", "Booster", "Author", "Aegis", "Twelve"])
             , halforcmalefirst = _.sample([aundarianmalefirst.concat(brelishmalefirst.concat(karrnathimalefirst.concat(thranemalefirst.concat(orcfirst))))])
-            , halforcfemalfirst = _.sample([aundarianfemalefirst.concat(brelishfemalefirst.concat(karrnathifemalefirst.concat(thranefemalefirst.concat(orcfirst))))])
+            , halforcfemalefirst = _.sample([aundarianfemalefirst.concat(brelishfemalefirst.concat(karrnathifemalefirst.concat(thranefemalefirst.concat(orcfirst))))])
             , halforclast = _.sample([aundarianlast.concat(brelishlast.concat(karrnathilast.concat(thranelast.concat(orclast))))])
             , halfelfmalefirst = _.sample([aundarianmalefirst.concat(brelishmalefirst.concat(karrnathimalefirst.concat(thranemalefirst.concat(elffirstname))))])
-            , halfelffemalfist = _.sample([aundarianfemalefirst.concat(brelishfemalefirst.concat(karrnathifemalefirst.concat(thranefemalefirst.concat(elffirstname))))])
+            , halfelffemaelfirst = _.sample([aundarianfemalefirst.concat(brelishfemalefirst.concat(karrnathifemalefirst.concat(thranefemalefirst.concat(elffirstname))))])
             , halfelflast = _.sample([aundarianlast.concat(brelishlast.concat(karrnathilast.concat(thranelast.concat(elflastname))))])
             , randrace = ["aundarian", "brelish", "karrnathi", "thrane", "dwarf", "elf", "gnome", "halfling", "orc", "gnoll", "goblin", "hobgoblin"]
             , randgender = ["male", "female"]
