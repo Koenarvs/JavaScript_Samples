@@ -7,6 +7,7 @@ on
                     };
                 if (msg.type == "api" && msg.content.indexOf("!npc") !== -1 || msg.content.indexOf("!npcname") !== -1 || msg.content.indexOf("!npcbackground") !== -1 || msg.content.indexOf("!npcdescription") !== -1) {
                         var cmds = msg.content.split(/\s+/)
+						for ( var i = 0; i < cmds[3]; i++){
                         if (cmds[0] === "!npcname" || cmds[0] === "!npc") { 
                             var aundarianmalefirst = _.sample(["Ari", "Bokk", "Breyten", "Daen", "Dover", "Erben", "Fluin", "Gavrin", "Hagro", "Herschem", "Huys", "Jurian", "Kamiel", "Killian", "Kleris", "Reng", "Retief", "Riaan", "Saal", "Sarelo", "Sithov", "Tak", "Tyman", "Urik"])
                             ,   aundarianfemalefirst = _.sample(["Aafki", "Agate", "Baltia", "Batrax", "Beleth", "Chantal", "Fientia", "Flerentia", "Gwen", "Hjeltia", "Juliona", "Levini", "Margana", "Marloes", "Sanne", "Sien", "Tanneken", "Vilina"])
@@ -679,5 +680,6 @@ on
                                     };
                             };
                 }
-            }
+			}
+		}
     );
